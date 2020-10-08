@@ -1,0 +1,20 @@
+{
+  "name": "wsserv",
+  "version": "1.0.0",
+  "description": "WebSocket server",
+  "main": "app.js",
+  "scripts": {
+    "watch": "nodemon --watch . app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zavix",
+  "license": "ISC",
+  "dependencies": {
+    "ffmpeg-on-progress": "^1.0.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "ws": "^7.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
